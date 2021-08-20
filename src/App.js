@@ -1,10 +1,21 @@
 import "./styles.css";
+import PropTypes from "prop-types";
 
-export default function App() {
+export default function App({ saludo }) {
   return (
     <div className="App">
       <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <h2>{saludo}</h2>
     </div>
   );
 }
+
+//PropTypes
+App.propTypes = {
+  saludo: PropTypes.string.isRequired
+};
+
+//DefaultProps
+App.defaultProps = {
+  saludo: "Hola soy Vegeta"
+};
