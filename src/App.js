@@ -3,13 +3,12 @@ import PropTypes from "prop-types";
 
 export default function App({ saludo }) {
   return (
-    <div className="App">
+    <>
       <h1>Hello CodeSandbox</h1>
       <h2>{saludo}</h2>
-    </div>
+    </>
   );
 }
-
 //PropTypes
 App.propTypes = {
   saludo: PropTypes.string.isRequired
@@ -17,5 +16,5 @@ App.propTypes = {
 
 //DefaultProps
 App.defaultProps = {
-  saludo: "Hola soy Vegeta"
+  saludo: "Hola, soy Veeta"
 };

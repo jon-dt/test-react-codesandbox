@@ -1,11 +1,8 @@
 {
-  "name": "react",
+  "name": "first-react-app",
   "version": "1.0.0",
-  "description": "React example starter project",
-  "keywords": [
-    "react",
-    "starter"
-  ],
+  "description": "this is the first test of creating react app since codesandbox and sent changes to github",
+  "keywords": [],
   "main": "src/index.js",
   "dependencies": {
     "prop-types": "15.7.2",

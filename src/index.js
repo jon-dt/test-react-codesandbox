@@ -1,12 +1,6 @@
-import { StrictMode } from "react";
 import ReactDOM from "react-dom";
 
 import App from "./App";
 
 const rootElement = document.getElementById("root");
-ReactDOM.render(
-  <StrictMode>
-    <App saludo="Hola soy Goku" />
-  </StrictMode>,
-  rootElement
-);
+ReactDOM.render(<App saludo="Hola, soy Goku" />, rootElement);
