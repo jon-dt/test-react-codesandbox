@@ -16,5 +16,5 @@ App.propTypes = {
 
 //DefaultProps
 App.defaultProps = {
-  saludo: "Hola, soy Veeta"
+  saludo: "Hola, soy Vegeta"
 };
